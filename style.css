@@ -20,7 +20,7 @@ a:hover{
 .navi{
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	gap: 15px;
+	gap: 16px;
 	background: lightblue;
 	padding: 6px;
 	margin: 10px 0px 10px 0px;
