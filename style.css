@@ -1,12 +1,26 @@
+.container{
+	max-width: 960px;
+
+}
 a{
 	text-decoration: none;
 	color: darkgreen;
-	background: lightblue;
+	border: solid 1px;
 	text-transform: uppercase;
+	margin: 2px;
+	padding: 3px;
 
+}
+a:hover{
+	background: white;
+}
+.logo{
+	background: lightcyan;
 }
 .navi{
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	gap: 5px;
+	gap: 10px;
+	background: lightblue;
+	padding: 4px;
 }
