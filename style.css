@@ -1,0 +1,12 @@
+a{
+	text-decoration: none;
+	color: darkgreen;
+	background: lightblue;
+	text-transform: uppercase;
+
+}
+.navi{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 5px;
+}
