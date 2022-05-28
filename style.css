@@ -1,13 +1,13 @@
 .container{
 	max-width: 85%;
 	margin: auto;
-
 }
+
 .header{
 	display: flex;
 	grid-gap: 100px;
-	
 }
+
 a{
 	text-decoration: none;
 	color: yellowgreen;
@@ -15,48 +15,50 @@ a{
 	text-transform: uppercase;
 	margin: 2px;
 	padding: 3px;
-
 }
+
 a:hover{
 	background: white;
 	color:blue;
 }
+
 .logo{
 	background: lightcyan;
 	width: 55%;
 	height: 55%;
-
 }
+
 body{
 	background: lightcyan;
 }
+
 .our_team{
 	text-transform: uppercase;
 	color: darkgreen;
 	font-size: 35px;
-
 }
+
 .team_member{
 	text-transform: uppercase;
 	color: darkgreen;
 	font-size: 15px;
 }
+
 .navi{
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
-	gap: 16px;
+	gap: 20px;
 	background: darkgreen;
 	padding: 6px;
 	margin: 10px 0px 10px 0px;
 }
+
 .team{
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	
 }
 
 .mem_img{
-
 	width: 60%;
 	height: 60%;
 }
