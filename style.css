@@ -17,6 +17,9 @@ a:hover{
 .logo{
 	background: lightcyan;
 }
+body{
+	background: lightcyan;
+}
 .navi{
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -24,4 +27,17 @@ a:hover{
 	background: lightblue;
 	padding: 6px;
 	margin: 10px 0px 10px 0px;
+}
+.team{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	
+}
+.team_title{
+	font-size: 40px;
+}
+.mem_img{
+
+	width: 50%;
+	height: 50%;
 }
