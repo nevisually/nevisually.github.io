@@ -1,10 +1,16 @@
 .container{
-	max-width: 960px;
+	max-width: 85%;
+	margin: auto;
 
+}
+.header{
+	display: flex;
+	grid-gap: 100px;
+	
 }
 a{
 	text-decoration: none;
-	color: darkgreen;
+	color: yellowgreen;
 	border: solid 1px;
 	text-transform: uppercase;
 	margin: 2px;
@@ -13,32 +19,44 @@ a{
 }
 a:hover{
 	background: white;
+	color:blue;
 }
 .logo{
 	background: lightcyan;
+	width: 55%;
+	height: 55%;
+
 }
 body{
 	background: lightcyan;
-	
+}
+.our_team{
+	text-transform: uppercase;
+	color: darkgreen;
+	font-size: 35px;
+
+}
+.team_member{
+	text-transform: uppercase;
+	color: darkgreen;
+	font-size: 15px;
 }
 .navi{
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: repeat(7, 1fr);
 	gap: 16px;
-	background: lightblue;
+	background: darkgreen;
 	padding: 6px;
 	margin: 10px 0px 10px 0px;
 }
 .team{
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	
 }
-.team_title{
-	font-size: 40px;
-}
+
 .mem_img{
 
-	width: 50%;
-	height: 50%;
+	width: 60%;
+	height: 60%;
 }
