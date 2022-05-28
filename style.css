@@ -53,6 +53,11 @@ body{
 	margin: 10px 0px 10px 0px;
 }
 
+.home_pic{
+	width: 100%;
+	height: 100%;
+}
+
 .team{
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
