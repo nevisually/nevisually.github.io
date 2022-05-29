@@ -12,6 +12,7 @@ a{
 	text-decoration: none;
 	color: yellowgreen;
 	border: solid 1px;
+	border-radius: 8px;
 	text-transform: uppercase;
 	margin: 2px;
 	padding: 3px;
@@ -31,31 +32,40 @@ a:hover{
 body{
 	background: lightcyan;
 }
-
+header p{
+	color: darkgreen;
+	font-size: 18px;
+}
 .our_team{
 	text-transform: uppercase;
 	color: darkgreen;
-	font-size: 35px;
+	font-size: 30px;
 }
 
+.navi{
+	display: flex;
+	gap: 40px;
+	background: darkgreen;
+	border-radius: 8px;
+	padding: 10px;
+	margin: 15px 0px 15px 0px;
+}
+.team_mem{
+	border: solid .25px;
+	text-align: center;
+	margin: 2px;
+	border-radius: 20px;
+}
 .team_member{
 	text-transform: uppercase;
 	color: darkgreen;
 	font-size: 15px;
 }
 
-.navi{
-	display: grid;
-	grid-template-columns: repeat(7, 1fr);
-	gap: 20px;
-	background: darkgreen;
-	padding: 6px;
-	margin: 10px 0px 10px 0px;
-}
-
 .home_pic{
 	width: 100%;
 	height: 100%;
+	border-radius: 45px;
 }
 
 .team{
@@ -66,4 +76,35 @@ body{
 .mem_img{
 	width: 60%;
 	height: 60%;
+}
+
+@media only screen and (orientation: portrait) {
+  body {
+    background-color: lightblue;
+  }
+  .navi{
+	display: block;
+	background: blue;
+	border-radius: 8px;
+	padding: 40px;
+	margin: 30px 0px 30px 0px;
+}
+
+a{
+	text-decoration: none;
+	color: yellowgreen;
+	border: solid 1px;
+	border-radius: 8px;
+	text-transform: uppercase;
+	
+}
+.home{
+	padding: 10px;
+}
+.team{
+	display: block;
+	width: 50%;
+	height: 50%;
+	
+}
 }
