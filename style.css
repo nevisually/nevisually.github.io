@@ -87,7 +87,7 @@ header p{
 }
 
 
-@media (max-width: 650px) {
+@media only screen and (orientation: portrait) {
   body {
     background-color: white;
   }
@@ -150,4 +150,7 @@ header p{
 	width: 40%;
 	height: 40%;
 	
+}
+
+
 }
