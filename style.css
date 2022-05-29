@@ -13,7 +13,8 @@ a{
 	color: yellowgreen;
 	border: solid 1px;
 	border-radius: 8px;
-	text-transform: uppercase;
+	font-variant: small-caps;
+	font-size: 20px;
 	margin: 2px;
 	padding: 3px;
 }
@@ -37,11 +38,13 @@ header p{
 	font-size: 18px;
 	padding: 2px;
 	margin: 2px;
+	font-variant: small-caps;
 }
 .our_team{
 	text-transform: uppercase;
 	color: darkgreen;
 	font-size: 30px;
+
 }
 
 .navi{
@@ -56,13 +59,16 @@ header p{
 	border: solid .25px;
 	text-align: center;
 	margin: 2px;
+	padding: 1px 1px 15px 1px;
 	border-radius: 20px;
 }
 .team_member{
-	text-transform: uppercase;
+	 font-variant: small-caps;
 	color: darkgreen;
-	font-size: 15px;
+	font-size: 25px;
+	
 }
+
 
 .home_pic{
 	width: 100%;
@@ -81,7 +87,7 @@ header p{
 }
 
 
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 650px) {
   body {
     background-color: white;
   }
@@ -109,31 +115,39 @@ a{
 	color: white;
 	border:none;
 	border-radius: 8px;
-	text-transform: uppercase;
+	
+	font-size: 20px;
+	font-family: Geneva, Verdana, sans-serif;
+
 	
 }
 .home{
-	padding: 10px;
+	padding: 6px;
 }
 header p{
 	color: #002f6c;
 	font-size: 18px;
 	padding: 2px;
 	margin: 2px;
+	font-family: Geneva, Verdana, sans-serif;
 }
+
 .our_team{
 	text-transform: uppercase;
 	color: #002f6c;
 	font-size: 30px;
+	font-family: Geneva, Verdana, sans-serif;
 }
 .team_member{
-	text-transform: uppercase;
+	font-variant: small-caps;
 	color: #002f6c;
-	font-size: 15px;
+	font-size: 20px;
+	font-family: Geneva, Verdana, sans-serif;
 }
 .team{
-	display: block;
-	width: 50%;
-	height: 50%;
+	display: grid;
+	grid-template-columns: 100% 100%;
+	width: 40%;
+	height: 40%;
 	
 }
