@@ -35,6 +35,8 @@ body{
 header p{
 	color: darkgreen;
 	font-size: 18px;
+	padding: 2px;
+	margin: 2px;
 }
 .our_team{
 	text-transform: uppercase;
@@ -78,13 +80,25 @@ header p{
 	height: 60%;
 }
 
-@media only screen and (orientation: portrait) {
+
+@media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: white;
   }
+  .logo{
+	background: white;
+	width: 100%;
+	height: 100%;
+}
+
+.header{
+	display: block;
+
+	
+}
   .navi{
 	display: block;
-	background: blue;
+	background: #002f6c;
 	border-radius: 8px;
 	padding: 40px;
 	margin: 30px 0px 30px 0px;
@@ -92,8 +106,8 @@ header p{
 
 a{
 	text-decoration: none;
-	color: yellowgreen;
-	border: solid 1px;
+	color: white;
+	border:none;
 	border-radius: 8px;
 	text-transform: uppercase;
 	
@@ -101,10 +115,25 @@ a{
 .home{
 	padding: 10px;
 }
+header p{
+	color: #002f6c;
+	font-size: 18px;
+	padding: 2px;
+	margin: 2px;
+}
+.our_team{
+	text-transform: uppercase;
+	color: #002f6c;
+	font-size: 30px;
+}
+.team_member{
+	text-transform: uppercase;
+	color: #002f6c;
+	font-size: 15px;
+}
 .team{
 	display: block;
 	width: 50%;
 	height: 50%;
 	
-}
 }
