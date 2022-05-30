@@ -1,11 +1,19 @@
 .container{
 	max-width: 85%;
 	margin: auto;
+	overflow: hidden;
 }
 
-.header{
+#container{
+	max-width: 85%;
+	margin: auto;
+	overflow: hidden;
+
+
+}
+#header_lo{
 	display: flex;
-	grid-gap: 100px;
+	
 }
 
 a{
@@ -26,8 +34,8 @@ a:hover{
 
 .logo{
 	background: lightcyan;
-	width: 55%;
-	height: 55%;
+	width: 80%;
+	height: 80%;
 }
 
 body{
@@ -40,7 +48,7 @@ header p{
 	margin: 2px;
 	font-variant: small-caps;
 }
-.our_team{
+.section_tile{
 	text-transform: uppercase;
 	color: darkgreen;
 	font-size: 30px;
@@ -97,16 +105,17 @@ header p{
 	height: 100%;
 }
 
-.header{
+#header_lo{
 	display: block;
 
 	
 }
   .navi{
-	display: block;
+	display: grid;
+	grid-template-columns: auto auto auto;
 	background: #002f6c;
 	border-radius: 8px;
-	padding: 40px;
+	padding: 2px 5px 10px 5px;
 	margin: 30px 0px 30px 0px;
 }
 
@@ -118,12 +127,10 @@ a{
 	
 	font-size: 20px;
 	font-family: Geneva, Verdana, sans-serif;
-
+	padding: 6px;
 	
 }
-.home{
-	padding: 6px;
-}
+
 header p{
 	color: #002f6c;
 	font-size: 18px;
@@ -132,7 +139,7 @@ header p{
 	font-family: Geneva, Verdana, sans-serif;
 }
 
-.our_team{
+.section_tile{
 	text-transform: uppercase;
 	color: #002f6c;
 	font-size: 30px;
