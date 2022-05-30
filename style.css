@@ -1,3 +1,4 @@
+/* comments */
 .container{
 	max-width: 85%;
 	margin: auto;
@@ -62,6 +63,35 @@ header p{
 	border-radius: 8px;
 	padding: 10px;
 	margin: 15px 0px 15px 0px;
+}
+
+.update_section{
+	display:grid;
+	grid-template-columns: 33% 33% 33%;
+	color: darkgreen;
+		
+}
+.update_box{
+	border: solid 1px;
+	border-radius: 14px;
+	margin: 2px;
+	display: block;
+
+}
+.update_box_title{
+	font-size: 22px;
+	text-align: center;
+
+}
+.update_image{
+	width: 260px;
+	height: 100px;
+	margin: auto;
+
+}
+.update_youtube{
+	width: 400;
+	height: 300;
 }
 .team_mem{
 	border: solid .25px;
@@ -144,6 +174,14 @@ header p{
 	color: #002f6c;
 	font-size: 30px;
 	font-family: Geneva, Verdana, sans-serif;
+}
+.update_section{
+	display: block;
+	
+	color: darkblue;
+	font-variant: small-caps;
+	
+
 }
 .team_member{
 	font-variant: small-caps;
