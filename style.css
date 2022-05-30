@@ -146,9 +146,10 @@ header p{
 }
 .team{
 	display: grid;
+	grid-gap: 30px;
 	grid-template-columns: 100% 100%;
-	width: 40%;
-	height: 40%;
+	width: 50%;
+	height: 50%;
 	
 }
 
